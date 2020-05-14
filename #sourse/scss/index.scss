@@ -1,0 +1,149 @@
+body{
+  min-width: 100%;
+}
+//.header-main{
+//  height: 105px;
+//  background: green;
+//}
+$font-family_title: Montserrat;
+$font-style_title: normal;
+$font-weight_title: 300;
+$color_title: #00519C;
+%title{
+  font-family: $font-family_title;
+  font-style: $font-style_title;
+  font-weight: $font-weight_title;
+  color: $color_title;
+}
+%caption__title{
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 19px;
+  color: #00519C;
+}
+%caption__subtitle{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #00519C;
+}
+
+%nav__ul{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  //line-height: 16px;
+  /* identical to box height */
+  text-align: center;
+  color: #00519C;
+}
+
+.page-header{
+  display: flex;
+  background: burlywood;
+  justify-content: center;
+  .logo{
+    background: yellow;
+    width: 85px;
+    .logo__fish-body{
+    }
+    .logo__circle{
+    }
+  }
+  .caption{
+    background: yellowgreen;
+    .caption__title{
+      @extend %caption__title;
+    }
+    .caption__subtitle{
+      @extend %caption__subtitle;
+    }
+  }
+  .nav{
+    background: brown;
+    ul{
+      @extend %nav__ul;
+
+      background: blue;
+      li{
+      }
+    }
+  }
+}
+
+.header_logo{
+  display:flex;
+  justify-content: start;
+  align-items: center;
+}
+.logo_logo__fish-body{
+  background: red;
+}
+.logo_logo__circle{
+  border: solid 1px black;
+  margin-left: -18.98px - 14.94px/2 - 5px;
+}
+.header-caption{
+
+  margin-left: 9px;
+}
+.header-nav{
+  width: 708px;
+}
+.nav_nav__ul{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin-left: 87px;
+  align-items: center;
+}
+.nav__li_color{
+  color: red;
+}
+.nav__li_size{
+  font-size: 20px;
+}
+
+.container{
+
+  background: silver;
+}
+.header_container{
+  display:flex;
+  width: 1047px+6.84px+85px;
+  //justify-content: space-between;
+  align-items: center;
+  height: 105px;
+  //margin-left: auto;
+  //margin-right: auto;
+}
+
+
+main {
+  .height_title {
+    .height_title__body {
+      .height_title__background {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("../img/sectiion_heightt_title/height_title.jpg") no-repeat center;
+        height: 180px;
+        .height_title__head {
+          .height_title__title {
+            @extend %title;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

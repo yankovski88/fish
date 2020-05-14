@@ -1,0 +1,120 @@
+body {
+  min-width: 100%;
+}
+
+main .height_title .height_title__body .height_title__background .height_title__head .height_title__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  color: #00519C;
+}
+
+.page-header .caption .caption__title {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 19px;
+  color: #00519C;
+}
+
+.page-header .caption .caption__subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #00519C;
+}
+
+.page-header .nav ul {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  /* identical to box height */
+  text-align: center;
+  color: #00519C;
+}
+
+.page-header {
+  display: flex;
+  background: burlywood;
+  justify-content: center;
+}
+.page-header .logo {
+  background: yellow;
+  width: 85px;
+}
+.page-header .caption {
+  background: yellowgreen;
+}
+.page-header .nav {
+  background: brown;
+}
+.page-header .nav ul {
+  background: blue;
+}
+.header_logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo_logo__fish-body {
+  background: red;
+}
+
+.logo_logo__circle {
+  border: solid 1px black;
+  margin-left: -31.45px;
+}
+
+.header-caption {
+  margin-left: 9px;
+}
+
+.header-nav {
+  width: 708px;
+}
+
+.nav_nav__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 87px;
+  align-items: center;
+}
+
+.nav__li_color {
+  color: red;
+}
+
+.nav__li_size {
+  font-size: 20px;
+}
+
+.container {
+  background: silver;
+}
+
+.header_container {
+  display: flex;
+  width: 1138.84px;
+  align-items: center;
+  height: 105px;
+}
+
+main .height_title .height_title__body .height_title__background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/sectiion_heightt_title/height_title.jpg") no-repeat center;
+  height: 180px;
+}
+main .height_title .height_title__body .height_title__background .height_title__head .height_title__title {
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}

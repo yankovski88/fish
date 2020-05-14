@@ -1,0 +1,94 @@
+body{
+  max-width:1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+//.header_main{
+//  height: 105px;
+//  background: green;
+//}
+$font-family_title: Montserrat;
+$font-style_title: normal;
+$font-weight_title: 300;
+$color_title: #00519C;
+%title{
+  font-family: $font-family_title;
+  font-style: $font-style_title;
+  font-weight: $font-weight_title;
+  color: $color_title;
+}
+.header_main{
+
+  background: aqua;
+
+  //justify-items: center;
+  //justify-content: center;
+  .header_main__nav{
+    display: flex;
+    flex-direction: row;
+    max-width: 1047px;
+    background: indianred;
+
+    .logo{
+      //align-content: center;
+      display: flex;
+      background: blueviolet;
+      .header_main__fish_body{
+        width: 85px;
+        height: 52.21px;
+        background: url("../img/header_main/fish_body.png") center no-repeat;
+
+      }
+      .header_main__circle{
+        background: url("../img/header_main/circle.png") center no-repeat ;
+        width: 14.94px;
+        height: 14.24px;
+        margin-left: 55.12px;
+        margin-top: 18.98px;
+      }
+    }
+    .header_main__podpis_logo {
+      height: 100px;
+      background: #cccccc;
+      .header_main__pod {
+        .header_main__text {
+        }
+        .header_main__text_small {
+        }
+      }
+    }
+    .header_main__menu   {
+      background: brown;
+      .header_main__button_menu{
+        ul{
+          li{
+          }
+        }
+      }
+    }
+  }
+}
+
+
+main{
+  .height_title{
+    .height_title__body{
+      .height_title__background{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("../img/sectiion_heightt_title/height_title.jpg") no-repeat center;
+        height: 180px;
+        .height_title__head{
+          .height_title__title {
+            @extend %title;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
