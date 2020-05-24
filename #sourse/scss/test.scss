@@ -70,25 +70,25 @@ $color_title: #00519C;
 }
 
 
-main{
-  .height_title{
-    .height_title__body{
-      .height_title__background{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: url("../img/sectiion_heightt_title/height_title.jpg") no-repeat center;
-        height: 180px;
-        .height_title__head{
-          .height_title__title {
-            @extend %title;
-            font-size: 36px;
-            line-height: 44px;
-            text-align: center;
-          }
-        }
-      }
-    }
-  }
-}
+//main{
+//  .height_title{
+//    .height_title__body{
+//      .height_title__background{
+//        display: flex;
+//        align-items: center;
+//        justify-content: center;
+//        background: url("../img/sectiion_heightt_title/height_title.jpg") no-repeat center;
+//        height: 180px;
+//        .height_title__head{
+//          .height_title__title {
+//            @extend %title;
+//            font-size: 36px;
+//            line-height: 44px;
+//            text-align: center;
+//          }
+//        }
+//      }
+//    }
+//  }
+//}
 

@@ -1,6 +1,7 @@
-body{
+body {
   min-width: 100%;
 }
+
 //.header-main{
 //  height: 105px;
 //  background: green;
@@ -9,13 +10,14 @@ $font-family_title: Montserrat;
 $font-style_title: normal;
 $font-weight_title: 300;
 $color_title: #00519C;
-%title{
+%title {
   font-family: $font-family_title;
   font-style: $font-style_title;
   font-weight: $font-weight_title;
   color: $color_title;
 }
-%caption__title{
+
+%caption__title {
   font-family: Gotham Pro;
   font-style: normal;
   font-weight: 900;
@@ -23,7 +25,8 @@ $color_title: #00519C;
   line-height: 19px;
   color: #00519C;
 }
-%caption__subtitle{
+
+%caption__subtitle {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -33,7 +36,7 @@ $color_title: #00519C;
   color: #00519C;
 }
 
-%nav__ul{
+%ul {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -44,79 +47,84 @@ $color_title: #00519C;
   color: #00519C;
 }
 
-.page-header{
+.page-header {
   display: flex;
   background: burlywood;
   justify-content: center;
-  .logo{
+  .logo {
     background: yellow;
     width: 85px;
-    .logo__fish-body{
+    .logo__fish-body {
     }
-    .logo__circle{
+    .logo__circle {
     }
   }
-  .caption{
+  .caption {
     background: yellowgreen;
-    .caption__title{
+    .caption__title {
       @extend %caption__title;
     }
-    .caption__subtitle{
+    .caption__subtitle {
       @extend %caption__subtitle;
     }
   }
-  .nav{
+  .nav {
     background: brown;
-    ul{
-      @extend %nav__ul;
-
+    .ul {
+      @extend %ul;
       background: blue;
-      li{
+      .nav__li {
       }
     }
   }
 }
 
-.header_logo{
-  display:flex;
+.header_logo {
+  display: flex;
   justify-content: start;
   align-items: center;
 }
-.logo_logo__fish-body{
+
+.logo_logo__fish-body {
   background: red;
 }
-.logo_logo__circle{
+
+.logo_logo__circle {
   border: solid 1px black;
   margin-left: -18.98px - 14.94px/2 - 5px;
 }
-.header-caption{
 
+.header-caption {
   margin-left: 9px;
 }
-.header-nav{
+
+.header__nav {
   width: 708px;
 }
-.nav_nav__ul{
+
+.nav__ul {
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
   margin-left: 87px;
   align-items: center;
 }
-.nav__li_color{
+
+.nav__li--color-red {
   color: red;
 }
-.nav__li_size{
+
+.nav__li--size-20 {
   font-size: 20px;
 }
 
-.container{
+.container {
 
   background: silver;
 }
-.header_container{
-  display:flex;
+
+.header_container {
+  display: flex;
   width: 1047px+6.84px+85px;
   //justify-content: space-between;
   align-items: center;
@@ -124,7 +132,6 @@ $color_title: #00519C;
   //margin-left: auto;
   //margin-right: auto;
 }
-
 
 main {
   .height_title {
@@ -146,4 +153,60 @@ main {
       }
     }
   }
+}
+
+.block {
+  width: 262px+629px+262px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: red;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.box {
+  width: 263px;
+  height: 240px;
+  background: darkgreen;
+}
+
+.box img {
+  text-align: center;
+}
+
+.box p {
+  text-align: center;
+  background: darkorange;
+}
+
+.footer {
+}
+
+.footer-row {
+  width: 67px+352px+734px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u {
+  width: 58px;
+  height: 58px;
+  background: url("../img/footer/Group 5.svg") no-repeat;
+}
+
+.f {
+  width: 41px;
+  height: 41px;
+  background: url("../img/footer/Group 6.svg") no-repeat;
+}
+
+.in {
+  width: 41px;
+  height: 41px;
+  background: url("../img/footer/Group 7.svg") no-repeat;
 }
