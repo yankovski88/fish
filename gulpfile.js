@@ -24,7 +24,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const cleancss = require('gulp-clean-css');
 
 // Подключаем gulp-imagemin для работы с изображениями
-// const imagemin = require('gulp-imagemin');
+const imagemin = require('gulp-imagemin');
 
 // Подключаем модуль gulp-newer
 const newer = require('gulp-newer');
@@ -92,7 +92,7 @@ function cleandist() {
 function startwatch() {
 
     // Выбираем все файлы JS в проекте, а затем исключим с суффиксом .min.js
-    // watch(['app/**/*.js', '!app/**/*.min.js'], scripts);
+    watch(['app/**/*.js', '!app/**/*.min.js'], scripts);
 
     // Мониторим файлы препроцессора на изменения
     watch('app/**/' + preprocessor + '/**/*', styles);
@@ -101,7 +101,7 @@ function startwatch() {
     watch('app/**/*.html').on('change', browserSync.reload);
 
     // Мониторим папку-источник изображений и выполняем images(), если есть изменения
-    // watch('app/images/src/**/*', images);
+    watch('app/images/src/**/*', images);
 
 }
 
@@ -115,13 +115,13 @@ exports.scripts = scripts;
 exports.styles = styles;
 
 // Экспорт функции images() в таск images
-// exports.images = images;
+exports.images = images;
 
 // Экспортируем функцию cleanimg() как таск cleanimg
 exports.cleanimg = cleanimg;
 
 // Создаём новый таск "build", который последовательно выполняет нужные операции
-// exports.build = series(cleandist, styles, scripts, images, buildcopy);
+exports.build = series(cleandist, styles, scripts, images, buildcopy);
 
 // Экспортируем дефолтный таск с нужным набором функций
 exports.default = parallel(styles, scripts, browsersync, startwatch);
