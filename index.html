@@ -7,32 +7,38 @@
     <link rel="stylesheet" href="css\index.css">
 </head>
 
-<body class="page">
-<header class="header page-header">
-    <div class="container header_container">
-        <img class="logo" src="img/header/logo.png" width="85" height="81" alt="">
-        <div class="caption header-caption">
-            <span class="caption__title caption_caption__title">Salmonbellies AS</span>
-            <p class="caption__subtitle caption_caption__subtitle">Trout is the new salmon</p>
+<body class="page-body">
+
+<header class="page-header">
+    <div class="container-navigation page-header__container-navigation ">
+        <div class="logo container-navigation__logo">
+            <img class="logo__img" src="img/header/logo.png" width="85" height="81" alt="logo">
+        </div>
+        <div class="caption container-navigation__caption">
+            <span class="caption__title">Salmonbellies AS</span>
+            <p class="caption__subtitle">Trout is the new salmon</p>
         </div>
 
         <nav class="nav header__nav">
-            <ul class="ul nav__ul">
-                <li class="nav__li nav__li--color-red nav__li--size-20">Our products</li>
-                <li class="nav__li">Receipes</li>
-                <li class="nav__li">Services</li>
-                <li class="nav__li">The promise</li>
-                <li class="nav__li">Origin</li>
-                <li class="nav__li">Markets</li>
-                <li class="nav__li">CSR</li>
-                <li class="nav__li">Company</li>
-                <li class="nav__li">Contacts</li>
+            <ul class="nav__list-navigation">
+                <li class="nav__item nav__li--color-red nav__li--size-20"><a href="#">Our products</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Receipes</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">The promise</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Origin</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Markets</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">CSR</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Company</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
             </ul>
         </nav>
 
-        <img src="img/header/Group 4.png" width="32" height="32" alt="">
-        <button>
-            <img src="img/header/arrow.svg" alt="">
+        <div class="flag container-navigation__flag">
+            <img class="flag__img" src="img/header/Group 4.png" width="32" height="32" alt="flag">
+        </div>
+        <button class="button-circle container-navigation__button-circle">
+            <img class="button-circle__button-circle-img button-circle-img" src="img/header/arrow.svg"
+                 alt="button-circle">
         </button>
     </div>
 </header>
