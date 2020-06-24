@@ -20,6 +20,7 @@
 
   @media(min-width: $desktop) {
     flex-direction: row;
+    flex-wrap: wrap;
     //align-items: center;
     //margin-bottom: 0;
   }
