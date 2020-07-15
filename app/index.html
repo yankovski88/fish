@@ -24,13 +24,82 @@
             </div>
 
             <nav class="nav header__nav">
+                <button class="nav__menu-button"></button>
                 <ul class="nav__list-navigation">
-                    <li class="nav__item nav__li--color-red nav__li--size-20"><a class="nav__link" href="#">Our
+                    <li class="nav__item nav__item--color-red nav_item--size-20"><a class="nav__link" href="#">Our
                         products</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="#">Receipes </a></li>
-                    <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#">The promise</a></li>
+
+
+                    <li id="idNavElement2" class="nav__item nav__item--element-2">
+                        <button class="nav__button-inner nav__button--inner-2"></button>
+                        <a class="nav__link" href="#">Receipes</a>
+
+                        <ul class="nav__element-2-inner win-none">
+                            <ul class="nav__inner_2_1">
+                                <li>
+                                    <a>Element 2.1</a>
+                                </li>
+                            </ul>
+
+
+                            <ul class="nav__inner_2_2">
+                                <li>
+                                    <button class="nav__button-inner nav__button--inner-2-2"></button>
+                                    <a>Element 2.2</a></li>
+                                <ul class="nav__inner_2_2_ul_small win-none">
+                                    <li class="nav__inner-small"><a>Element 2.2.1</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.2.2</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.2.3</a></li>
+                                </ul>
+                            </ul>
+
+
+                            <ul class="nav__inner_2_3">
+                                <li>
+                                    <a>Element 2.3</a>
+                                </li>
+                            </ul>
+                            <ul class="nav__inner_2_4">
+                                <li>
+                                    <button class="nav__button-inner nav__button--inner-2-4"></button>
+                                    <a>Element 2.4</a></li>
+                                <ul class="nav__inner_2_4_ul_small">
+                                    <li class="nav__inner-small win-none"><a>Element 2.4.1</a></li>
+                                    <li class="nav__inner-small win-none"><a>Element 2.4.2</a></li>
+                                    <li class="nav__inner-small win-none"><a>Element 2.4.3</a></li>
+                                    <li class="nav__inner-small win-none"><a>Element 2.4.4</a></li>
+                                    <li class="nav__inner-small win-none"><a>Element 2.4.5</a></li>
+                                    <li class="nav__inner-small win-none"><a>Element 2.4.6</a></li>
+                                    <li class="nav__inner-small win-none"><a>Element 2.4.7</a></li>
+                                </ul>
+                            </ul>
+                            <ul class="nav__inner_2_5">
+                                <li><a>Element 2.5</a></li>
+                            </ul>
+                            <ul class="nav__inner_2_6">
+                                <li>
+                                    <a>Element 2.6</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item"><a class="nav__link " href="#">Services</a></li>
+                    <li id="idPicContainer4" class="nav__item nav__item--element-4">
+                        <button class="nav__button-inner nav__button--inner-4"></button>
+                        <a class="nav__link" href="#">The promise</a>
+
+                        <ul id="picHolder" class="nav__element-4-inner win-none">
+                            <li>
+                                <a href="">Element 4.1</a>
+                            </li>
+                            <li>
+                                <a href="">Element 4.2</a>
+                            </li>
+                        </ul>
+                    </li>
+
                     <li class="nav__item"><a class="nav__link" href="#">Origin</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Markets</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">CSR</a></li>
@@ -52,12 +121,22 @@
             <h1>Our fresh and frozen fish</h1>
         </div>
     </div>
+    <!--<div class="test">-->
+    <!--<div class="text-in">asdfasdfasdf asdf asdf asdf asdf asd fasdf asdf asdf asdf asdf asdf asdf asdf asdfa-->
+    <!--sdfasdf asdf asdf asdf asdf asdafsd fasdf asdf asdf asdf asdf</div>-->
+    <!--<div class="text-in">qwerqwerqwer qwe rqwer qwer qwer qwer qwe rqwer qwer qwer qwer qwer qwer qwer qwer-->
+    <!--qwer qwe rqwerweq rqwer qwe qwerqwer qwer qwerqwer qwer qwerq werqwe rqwer qwer qwer qwerqwer qwer-->
+    <!--qwer qwer qwerqwer rqwe</div>-->
+    <!--</div>-->
+
     <div class="container">
         <section class="catalog container__catalog">
 
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
-                    <img src="images/dest/kirjolohi-kokonainen.jpg" width="256" height="154" alt="kirjolohi-kokonainen">
+                    <img src="images/dest/kirjolohi-kokonainen.jpg" width="256" height="154"
+                         srcset="images/dest/kirjolohi-kokonainen-x2-compress.jpg"
+                         alt="kirjolohi-kokonainen">
                 </div>
                 <p class="card-product__text">
                     Trout whole<br>
@@ -67,7 +146,41 @@
 
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
-                    <img src="images/dest/kirjolohifilee.jpg" width="241" height="151" alt="kirjolohifilee">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1440px)"
+                                srcset="images/webp/kirjolohifilee1440@1x.webp 1x,
+                                images/webp/kirjolohifilee1440@2x.webp 2x">
+
+
+                        <source type="image/webp" media="(min-width: 768px)" srcset="
+                        images/webp/kirjolohifilee748px@1x.webp 1x,
+                        images/webp/kirjolohifilee748px@2x.webp 2x
+                        ">
+                        <source type="image/webp" srcset="
+                        images/webp/kirjolohifilee-mobile@1x.webp 1x,
+                        images/webp/kirjolohifilee-mobile@2x.webp 2x
+                        ">
+
+                        <source media="min-width: 1440px" srcset="
+                        images/dest/kirjolohifilee1440@1x.jpg 1x,
+                        images/dest/kirjolohifilee1440@2x.jpg 2x
+                        ">
+                        <source media="min-width: 748px" srcset="
+                        images/dest/kirjolohifilee748px@1x.jpg 1x,
+                        images/dest/kirjolohifilee748px@2x.jpg 2x
+                        ">
+                        <!--<source srcset="-->
+                        <!--images/dest/kirjolohifilee-mobile@1x.jpg 1x,-->
+                        <!--images/dest/kirjolohifilee-mobile@2x.jpg 2x-->
+                        <!--">-->
+
+                        <img src="images/src/kirjolohifilee.jpg"
+                             srcset="
+                        images/dest/kirjolohifilee-mobile@1x.jpg 1x,
+                        images/dest/kirjolohifilee-mobile@2x.jpg 2x
+                        "
+                             alt="kirjolohifilee">
+                    </picture>
                 </div>
                 <p class="card-product__text">
                     TROUT FILLET<br>
@@ -77,7 +190,13 @@
 
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
-                    <img src="images/dest/lohi-kokonainen.jpg" width="248" height="155" alt="lohi-kokonainen">
+                    <picture>
+                        <source type="image/webp" srcset="
+                        images/webp/lohi-kokonainen.webp 1x,
+                        images/webp/lohi-kokonainen@x2.webp 2x
+                        ">
+                        <img src="images/dest/lohi-kokonainen.jpg" width="248" height="155" alt="lohi-kokonainen">
+                    </picture>
                 </div>
                 <p class="card-product__text">
                     SALMON WHOLE<br>
@@ -165,7 +284,13 @@
 
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
-                    <img src="images/dest/kuha.jpg" width="234" height="146" alt="kuha">
+                    <picture>
+                        <source type="image/webp" srcset="
+                        images/webp/kuha.webp 1x,
+                        images/webp/kuha@x2.webp 2x,
+">
+                        <img src="images/dest/kuha.jpg" width="234" height="146" alt="kuha">
+                    </picture>
                 </div>
                 <p class="card-product__text">
                     SALMON WHOLE<br>
@@ -205,7 +330,7 @@
         </section>
     </div>
 </main>
-<footer class="footer footer__fd">
+<footer class="footer">
     <div class="container container--footer">
         <img class="logo footer__logo" src="images/dest/logo.svg" width="67" height="61">
         <div class="logo-text footer__logo-text">
@@ -216,11 +341,12 @@
             <a href="" class="kosher"></a>
             <p class="kosher-box__text">Kosher per demand</p>
         </div>
-        <a href="" class="fb footer__fd"></a>
+        <a href="" class="fb footer__fb"></a>
         <a href="" class="in footer__in"></a>
         <p class="text footer__text">Copyright SalmonBellies.no 2019, All Rights Reserved</p>
     </div>
 </footer>
 <script src="js/app.min.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

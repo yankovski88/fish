@@ -28,6 +28,27 @@ const imagemin = require('gulp-imagemin');
 
 // Подключаем модуль gulp-newer
 const newer = require('gulp-newer');
+const webpVar = require ("gulp-webp");
+
+// const retinizeVar = require('gulp-retinize');
+
+// function retinize () {
+//     return src('app/images/webp/**/*') // Берём все изображения из папки источника
+//         .pipe(newer('app/images/webp/')) // Проверяем, было ли изменено (сжато) изображение ранее
+//         .pipe(retinizeVar())
+//         .pipe(dest('app/images/retinize/')) // Выгружаем оптимизированные изображения в папку назначения
+// }
+
+
+
+
+function webp() {
+    return src('app/images/src/**/*.+(jpg|png)') // Берём все изображения из папки источника
+        .pipe(newer('app/images/webp/')) // Проверяем, было ли изменено (сжато) изображение ранее
+        .pipe(webpVar()) // Сжимаем и оптимизируем изображеня
+        .pipe(dest('app/images/webp/')) // Выгружаем оптимизированные изображения в папку назначения
+}
+
 
 // Подключаем модуль del
 const del = require('del');
@@ -64,9 +85,13 @@ function styles() {
         .pipe(browserSync.stream()) // Сделаем инъекцию в браузер
 }
 
+
 function images() {
     return src('app/images/src/**/*') // Берём все изображения из папки источника
         .pipe(newer('app/images/dest/')) // Проверяем, было ли изменено (сжато) изображение ранее
+        // .pipe(newer('app/images/webp/'))
+        // .pipe(webpVar())
+        // .pipe(dest('app/images/webp/'))
         .pipe(imagemin()) // Сжимаем и оптимизируем изображеня
         .pipe(dest('app/images/dest/')) // Выгружаем оптимизированные изображения в папку назначения
 }
@@ -103,6 +128,10 @@ function startwatch() {
     // Мониторим папку-источник изображений и выполняем images(), если есть изменения
     watch('app/images/src/**/*', images);
 
+    watch('app/images/src/**/*+(jpg|png)', webp);
+    // watch('app/images/webp/**/*', retinize);
+
+
 }
 
 // Экспортируем функцию browsersync() как таск browsersync. Значение после знака = это имеющаяся функция.
@@ -120,8 +149,10 @@ exports.images = images;
 // Экспортируем функцию cleanimg() как таск cleanimg
 exports.cleanimg = cleanimg;
 
+// exports.retinize = retinize;
+exports.webp = webp;
 // Создаём новый таск "build", который последовательно выполняет нужные операции
-exports.build = series(cleandist, styles, scripts, images, buildcopy);
+exports.build = series(cleandist, styles, scripts, images, webp, buildcopy);
 
 // Экспортируем дефолтный таск с нужным набором функций
 exports.default = parallel(styles, scripts, browsersync, startwatch);

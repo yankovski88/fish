@@ -25,7 +25,7 @@
 
             <nav class="nav header__nav">
                 <ul class="nav__list-navigation">
-                    <li class="nav__item nav__li--color-red nav__li--size-20"><a class="nav__link" href="#">Our
+                    <li class="nav__item nav__item--color-red nav_item--size-20"><a class="nav__link" href="#">Our
                         products</a>
                     </li>
                     <li class="nav__item"><a class="nav__link" href="#">Receipes </a></li>
@@ -52,12 +52,22 @@
             <h1>Our fresh and frozen fish</h1>
         </div>
     </div>
+    <!--<div class="test">-->
+    <!--<div class="text-in">asdfasdfasdf asdf asdf asdf asdf asd fasdf asdf asdf asdf asdf asdf asdf asdf asdfa-->
+    <!--sdfasdf asdf asdf asdf asdf asdafsd fasdf asdf asdf asdf asdf</div>-->
+    <!--<div class="text-in">qwerqwerqwer qwe rqwer qwer qwer qwer qwe rqwer qwer qwer qwer qwer qwer qwer qwer-->
+    <!--qwer qwe rqwerweq rqwer qwe qwerqwer qwer qwerqwer qwer qwerq werqwe rqwer qwer qwer qwerqwer qwer-->
+    <!--qwer qwer qwerqwer rqwe</div>-->
+    <!--</div>-->
+
     <div class="container">
         <section class="catalog container__catalog">
 
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
-                    <img src="images/dest/kirjolohi-kokonainen.jpg" width="256" height="154" alt="kirjolohi-kokonainen">
+                    <img src="images/dest/kirjolohi-kokonainen.jpg" width="256" height="154"
+                         srcset="images/dest/kirjolohi-kokonainen-x2-compress.jpg"
+                         alt="kirjolohi-kokonainen">
                 </div>
                 <p class="card-product__text">
                     Trout whole<br>
@@ -67,7 +77,58 @@
 
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
-                    <img src="images/dest/kirjolohifilee.jpg" width="241" height="151" alt="kirjolohifilee">
+                    <picture>
+                        <!--<source type="image/webp" media="(min-width: 1440px)"-->
+                                <!--srcset="images/webp/kirjolohifilee1440@1x.webp 1x,-->
+                                <!--images/webp/kirjolohifilee1440@2x.webp 2x">-->
+
+
+                        <!--<source type="image/webp" media="(min-width: 768px)" srcset="-->
+                        <!--images/webp/kirjolohifilee748px@1x.webp 1x,-->
+                        <!--images/webp/kirjolohifilee748px@2x.webp 2x-->
+                        <!--">-->
+                        <!--<source type="image/webp" srcset="-->
+                        <!--images/webp/kirjolohifilee-mobile@1x.webp 1x,-->
+                        <!--images/webp/kirjolohifilee-mobile@2x.webp 2x-->
+                        <!--">-->
+
+                        <source media="min-width: 1440px" srcset="
+                        images/dest/kirjolohifilee1440@1x.jpg 1x,
+                        images/dest/kirjolohifilee1440@2x.jpg 2x
+                        ">
+                        <source media="min-width: 748px" srcset="
+                        images/dest/kirjolohifilee748px@1x.jpg 1x,
+                        images/dest/kirjolohifilee748px@2x.jpg 2x
+                        ">
+                        <source srcset="
+                        images/dest/kirjolohifilee-mobile@1x.jpg 1x,
+                        images/dest/kirjolohifilee-mobile@2x.jpg 2x
+                        ">
+
+
+
+                        <img src="images/src/kirjolohifilee.jpg" width="241" height="151" alt="kirjolohifilee">
+
+
+                        <!--<source type="image/webp" srcset="-->
+                        <!--img/logo-mobile-white@1x.webp 1x,-->
+                        <!--img/logo-mobile-white@2x.webp 2x-->
+                        <!--">-->
+                        <!--<source media="(min-width: 1440px)" srcset="-->
+                        <!--img/logo-desktop-white@1x.png 1x,-->
+                        <!--img/logo-desktop-white@2x.png 2x-->
+                        <!--">-->
+                        <!--<source media="(min-width: 768px)" srcset="-->
+                        <!--img/logo-tablet-white@1x.png 1x,-->
+                        <!--img/logo-tablet-white@2x.png 2x-->
+                        <!--">-->
+                        <!--<img class="logo__picture" src="img/logo-mobile-white@1x.png" srcset="-->
+                        <!--img/logo-mobile-white@1x.png 1x,-->
+                        <!--img/logo-mobile-white@2x.png 2x-->
+                        <!--" alt="Логотип приложения Погнали">-->
+                        <!--<img src="images/webp/kirjolohifilee1440@1x.webp" width="241" height="151" alt="kirjolohifilee">-->
+
+                    </picture>
                 </div>
                 <p class="card-product__text">
                     TROUT FILLET<br>
@@ -205,7 +266,7 @@
         </section>
     </div>
 </main>
-<footer class="footer footer__fd">
+<footer class="footer">
     <div class="container container--footer">
         <img class="logo footer__logo" src="images/dest/logo.svg" width="67" height="61">
         <div class="logo-text footer__logo-text">
@@ -216,7 +277,7 @@
             <a href="" class="kosher"></a>
             <p class="kosher-box__text">Kosher per demand</p>
         </div>
-        <a href="" class="fb footer__fd"></a>
+        <a href="" class="fb footer__fb"></a>
         <a href="" class="in footer__in"></a>
         <p class="text footer__text">Copyright SalmonBellies.no 2019, All Rights Reserved</p>
     </div>

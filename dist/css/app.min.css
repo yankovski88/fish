@@ -275,15 +275,12 @@ textarea {
   padding: .2em 0
 }
 .page-body {
-  max-width: 1600px;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: -webkit-min-content 1fr -webkit-min-content;
   -ms-grid-rows: min-content 1fr min-content;
   grid-template-rows: -webkit-min-content 1fr -webkit-min-content;
-  grid-template-rows: min-content 1fr min-content;
-  margin-left: auto;
-  margin-right: auto
+  grid-template-rows: min-content 1fr min-content
 }
 button {
   background: 0 0;
@@ -314,21 +311,25 @@ h1 {
   color: #00519c;
   text-align: center
 }
+img {
+  max-width: 100%;
+  height: auto
+}
 .container {
-  width: 320px;
+  max-width: 320px;
   padding: 0 5px;
   margin-left: auto;
   margin-right: auto
 }
 @media (min-width:768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 10px
   }
 }
 @media (min-width:1440px) {
   .container {
-    width: 1140px;
+    max-width: 1140px;
     padding: 0 230px;
     background: 0 0
   }
@@ -382,6 +383,10 @@ h1 {
     align-items: center
   }
 }
+.nav {
+  margin-left: auto;
+  margin-right: auto
+}
 @media (min-width:1440px) {
   .nav {
     display: -webkit-box;
@@ -412,7 +417,8 @@ h1 {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column
+  flex-direction: column;
+  width: 100%
 }
 @media (min-width:1440px) {
   .nav__list-navigation {
@@ -585,8 +591,10 @@ h1 {
 .block-title {
   width: 100%;
   height: 180px;
+  background-color: #d2691e;
   background-image: url(../images/dest/bg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -595,7 +603,16 @@ h1 {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto
+}
+@media (-webkit-min-device-pixel-ratio:1.5),
+(-o-min-device-pixel-ratio:3/2),
+(min-resolution:1.5dppx) {
+  .block-title {
+    background-image: url(../images/dest/bg-x2.jpg)
+  }
 }
 .main__block-title {
   margin-left: auto;
@@ -723,18 +740,18 @@ h1 {
   background-image: url(../images/dest/fb.svg);
   background-repeat: no-repeat
 }
-.footer__fd {
+.footer__fb {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px
 }
 @media (min-width:768px) {
-  .footer__fd {
+  .footer__fb {
     margin-bottom: 0
   }
 }
 @media (min-width:1440px) {
-  .footer__fd {
+  .footer__fb {
     margin-left: 0;
     margin-right: 24px
   }
