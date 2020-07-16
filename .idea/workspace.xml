@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09080f60-480f-4277-9c7b-c7a3f9dda876" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/css/app.min.css" afterPath="$PROJECT_DIR$/app/css/app.min.css" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/blocks/nav.scss" afterPath="$PROJECT_DIR$/app/sass/blocks/nav.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
+      <change beforePath="$PROJECT_DIR$/app/js/menu.js" afterPath="$PROJECT_DIR$/app/js/menu.js" />
+      <change beforePath="$PROJECT_DIR$/app/js/move.js" afterPath="$PROJECT_DIR$/app/js/move.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,21 +43,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="move.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="move.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/js/move.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+                <state relative-caret-position="104">
+                  <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="move.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="move.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/blocks/move.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -178,11 +176,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="nav.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="nav.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/blocks/nav.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="29">
-                  <caret line="203" column="21" lean-forward="false" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
+                <state relative-caret-position="58">
+                  <caret line="214" column="1" lean-forward="false" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -208,11 +206,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/js/menu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="106">
-                  <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -269,11 +267,11 @@
       <find>navButtonInner4ArrowUp</find>
       <find>bor</find>
       <find>nav__button--inner-2</find>
-      <find>nav__inner_2_2_ul_small</find>
       <find>nav__item--element-4</find>
       <find>nav__element-2-inner</find>
       <find>move</find>
       <find>kirjolohifilee748px@2x.jpg</find>
+      <find>nav__inner_2_2_ul_small</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -327,12 +325,12 @@
         <option value="$PROJECT_DIR$/app/sass/blocks/win-none.scss" />
         <option value="$PROJECT_DIR$/app/sass/variables.scss" />
         <option value="$PROJECT_DIR$/app/sass/global.scss" />
-        <option value="$PROJECT_DIR$/app/js/menu.js" />
         <option value="$PROJECT_DIR$/app/sass/blocks/nav.scss" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/js/move.js" />
         <option value="$PROJECT_DIR$/app/sass/blocks/move.scss" />
+        <option value="$PROJECT_DIR$/app/js/menu.js" />
+        <option value="$PROJECT_DIR$/app/js/move.js" />
       </list>
     </option>
   </component>
@@ -516,15 +514,16 @@
       <workItem from="1591007805353" duration="73093000" />
       <workItem from="1592834611449" duration="94364000" />
       <workItem from="1593621303800" duration="16767000" />
-      <workItem from="1594629528777" duration="88910000" />
+      <workItem from="1594629528777" duration="90857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384778000" />
+    <option name="totallyTimeSpent" value="386725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102874435" sideWeight="0.4943274" order="1" side_tool="false" content_ui="combo" />
@@ -535,7 +534,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48848686" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3305921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3305921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11433087" sideWeight="0.50567263" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31085527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -916,22 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/blocks/nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="203" column="21" lean-forward="false" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/app.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
@@ -956,18 +939,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/move.js">
+    <entry file="file://$PROJECT_DIR$/app/sass/blocks/move.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/blocks/move.scss">
+    <entry file="file://$PROJECT_DIR$/app/sass/blocks/nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="58">
+          <caret line="214" column="1" lean-forward="false" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/move.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
