@@ -85,10 +85,10 @@
     justify-content: space-between;
     z-index: 1;
     position: absolute;
-    margin-top: 80px;
+    margin-top: 0;
+    margin-left: -170px;
     width: 800px;
     border: solid 1px black;
-    margin-left: 170px;
     background: white;
   }
 }
@@ -213,3 +213,17 @@ margin-right: 20px;
   align-items: center;
   position: relative;
 }
+
+
+.nav__wrap-inner2{
+  //@media(max-width: $only_mobile_table) {
+  //  display: flex;
+  //  flex-direction: row;
+  //}
+}
+//.nav__item--element-4{
+//  @media(max-width: $only_mobile_table)  {
+//    display: flex;
+//    flex-direction: column;
+//  }
+//}

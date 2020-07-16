@@ -2,12 +2,14 @@ var navElement2 = document.querySelector(".nav__item--element-2");
 var menuElement2 = document.querySelector(".nav__element-2-inner");
 var idNavElement2 = document.getElementById("idNavElement2")
 idNavElement2.addEventListener("mouseover", function (event) {
-    console.log("navel2");
-    menuElement2.classList.add("show-window");
+    if (document.documentElement.clientWidth > 768) {
+        menuElement2.classList.add("show-window");
+    }
 });
 idNavElement2.addEventListener("mouseout", function (event) {
-    console.log("otvell2");
-    menuElement2.classList.remove("show-window");
+    if (document.documentElement.clientWidth > 768) {
+        menuElement2.classList.remove("show-window");
+    }
 });
 
 var navButtonInner2 = document.querySelector(".nav__button--inner-2");
@@ -30,11 +32,17 @@ var navElement4 = document.querySelector(".nav__item--element-4");
 var menuElement4 = document.querySelector(".nav__element-4-inner");
 var idPicContainer4 = document.getElementById("idPicContainer4");
 var navButtonInner4ArrowUp = document.querySelector(".nav__button--inner-4");
+
 idPicContainer4.addEventListener('mouseover', function (event) {
-    menuElement4.classList.add("show-window");
+    if (document.documentElement.clientWidth > 768) {
+        menuElement4.classList.add("show-window");
+    }
 });
+
 idPicContainer4.addEventListener('mouseout', function () {
-    menuElement4.classList.remove("show-window");
+    if (document.documentElement.clientWidth > 768) {
+        menuElement4.classList.remove("show-window");
+    }
 });
 
 
