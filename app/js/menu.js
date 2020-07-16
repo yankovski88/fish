@@ -60,7 +60,6 @@ navButtonInner4ArrowUp.addEventListener("click", function (evt) {
 });
 
 
-
 var menuButtonClose = document.querySelector(".nav__menu-button");
 var navListNavigation = document.querySelector(".nav__list-navigation");
 menuButtonClose.addEventListener("click", function (evt) {

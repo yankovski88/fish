@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09080f60-480f-4277-9c7b-c7a3f9dda876" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/css/app.min.css" afterPath="$PROJECT_DIR$/app/css/app.min.css" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/js/menu.js" afterPath="$PROJECT_DIR$/app/js/menu.js" />
-      <change beforePath="$PROJECT_DIR$/app/sass/blocks/nav.scss" afterPath="$PROJECT_DIR$/app/sass/blocks/nav.scss" />
-    </list>
+    <list default="true" id="09080f60-480f-4277-9c7b-c7a3f9dda876" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,7 +16,7 @@
     <favorites_list name="fish" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43543828">
+    <splitter split-orientation="horizontal" split-proportion="0.5570217">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
@@ -38,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="92" column="79" lean-forward="false" selection-start-line="92" selection-start-column="79" selection-end-line="92" selection-end-column="79" />
+                <state relative-caret-position="117">
+                  <caret line="172" column="62" lean-forward="false" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -211,8 +205,8 @@
           <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/js/menu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+                <state relative-caret-position="317">
+                  <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -244,7 +238,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>color: #00519c</find>
       <find>navele</find>
       <find>nav__item</find>
       <find>arrow uk-box__arrow</find>
@@ -274,6 +267,7 @@
       <find>nav__inner_2_2_ul_small</find>
       <find>nav__item--element-4</find>
       <find>nav__element-2-inner</find>
+      <find>kirjolohifilee748px@2x.jpg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -518,15 +512,16 @@
       <workItem from="1591007805353" duration="73093000" />
       <workItem from="1592834611449" duration="94364000" />
       <workItem from="1593621303800" duration="16767000" />
-      <workItem from="1594629528777" duration="76663000" />
+      <workItem from="1594629528777" duration="78356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372531000" />
+    <option name="totallyTimeSpent" value="374224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.4943274" order="1" side_tool="false" content_ui="combo" />
@@ -537,7 +532,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48848686" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29605263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29605263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11433087" sideWeight="0.50567263" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31085527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -947,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="92" column="79" lean-forward="false" selection-start-line="92" selection-start-column="79" selection-end-line="92" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -965,8 +952,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="317">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="172" column="62" lean-forward="false" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="62" />
           <folding />
         </state>
       </provider>
