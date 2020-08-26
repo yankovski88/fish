@@ -49,6 +49,7 @@ menuButtonClose.addEventListener("click", function (evt) {
     } else {
         navListNavigation.classList.add("show-window");
         menuButtonClose.classList.add("nav__menu-button--close");
+        closeMenuBig();
     }
 });
 
