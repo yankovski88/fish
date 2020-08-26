@@ -12,6 +12,7 @@ let navButtonInnersBig = document.querySelectorAll(".nav--button-big");
 function closeUlSmallArrow () {
     menuElementUlSmall.forEach(item => {
         item.classList.add('win-none');
+        item.classList.remove('show-window');
     });
     navButtonInnersSmall.forEach(item => {
         item.classList.remove('nav__button--inner-arrow-up')
@@ -73,7 +74,6 @@ navButtonInners.forEach((item, i) => {
                 menuElementThePromiseSmall2_2.classList.remove("show-window");
                 menuElementThePromiseSmall2_2.classList.add("win-none");
                 item.classList.remove("nav__button--inner-arrow-up");
-
             } else {
                 closeMenuSmall();
                 menuElementThePromiseSmall2_2.classList.add("show-window");
