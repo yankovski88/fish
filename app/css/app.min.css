@@ -639,9 +639,6 @@ img {
   align-items: center;
   position: relative
 }
-.nav__inner_2_2_ul_small {
-  display: block
-}
 .nav__inner_2_4 li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1009,7 +1006,8 @@ img {
   }
 }
 .win-none {
-  display: none
+  display: none!important;
+  background: red
 }
 .show-window {
   display: -webkit-box;
