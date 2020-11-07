@@ -11,4 +11,3 @@ for(var i = 0; i <= encodedMessage.length; i++){
     arr.push(symbols[encodedMessage[i]]);
 }
 var decodedMessage = arr.join('')
-console.log(decodedMessage);

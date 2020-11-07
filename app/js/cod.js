@@ -21,22 +21,7 @@ var getNameFile = function (b) {
     }
 };
 
-console.log(getNameFile("log"));
 
-// function getFileExtension(filename) {
-//     const result = [];
-//
-//     for (let i = filename.length - 1; i >= 0; i--) {
-//         if (filename[i] === '.') {
-//             break;
-//         } else {
-//             result.push(filename[i]);
-//         }
-//     }
-//
-//     return result.reverse().join('');
-// }
-// console.log(getFileExtension("filename"));
 
 
 

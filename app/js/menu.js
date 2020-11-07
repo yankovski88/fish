@@ -78,7 +78,6 @@
 
         var navButtonInner22 = document.querySelector(".nav__button--inner-2-2");
         navButtonInner22.addEventListener("click", function (evt) {
-            console.log("Element 2.2 arrow");
             navButtonInner22.classList.toggle("nav__button--inner-arrow-up")
         });
 
@@ -86,7 +85,5 @@
         navButtonInner24.addEventListener("click", function (evt) {
             navButtonInner24.classList.toggle("nav__button--inner-arrow-up")
         });
-
-
     }
 )();

@@ -9,8 +9,6 @@
 
         move.addEventListener("mousedown", function (evt) {
             evt.preventDefault();
-            console.log("on push down on me");
-
             var startCoords = {
                 x: evt.clientX,
                 y: evt.clientY

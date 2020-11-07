@@ -4,8 +4,8 @@
         const menuElementUl = document.querySelectorAll(".ulbig");
         const menuElementUlSmall = document.querySelectorAll(".ulsmall");
 
-
         if (document.documentElement.clientWidth > 1440) {
+
             navMenu.forEach((item, i) => {
                 if (i === 0) {
                     item.addEventListener("mouseover", function (event) {

@@ -11,9 +11,7 @@
 <header class="header">
 
     <div class="container">
-        <!--Что вставлять контейнер для всех блоков или к header__wrapper прописать все свойства как в contaner
-        получится проект без глобального контейнера. Или можно задавить мадификаторы container для определенных
-        блоков-->
+        <!--в header__wrapper прописать все свойства contaner-->
         <div class="header__wrapper">
             <div class="logo-box">
                 <img class="logo logo-box__logo" src="images/dest/logo.svg" width="85" height="81" alt="logo">
@@ -24,13 +22,86 @@
             </div>
 
             <nav class="nav header__nav">
+                <button class="nav__menu-button"></button>
                 <ul class="nav__list-navigation">
                     <li class="nav__item nav__item--color-red nav_item--size-20"><a class="nav__link" href="#">Our
                         products</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="#">Receipes </a></li>
-                    <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#">The promise</a></li>
+
+                    <div id="idNavElement2" class="nav-menu">
+                        <li class="nav__item nav__item--element-2">
+                            <button class="nav__button-inner nav__button--inner-2 nav--button-big"></button>
+                            <a class="nav__link" href="#">Receipes</a>
+                        </li>
+
+                        <ul class="nav__element-2-inner win-none ulbig">
+                            <ul class="nav__inner_2_1">
+                                <li>
+                                    <a>Element 2.1</a>
+                                </li>
+                            </ul>
+
+
+                            <ul class="nav__inner_2_2">
+                                <li>
+                                    <button class="nav__button-inner nav__button--inner-2-2 nav__button-inner_small"></button>
+                                    <a class="element_2">Element 2.2</a>
+                                </li>
+                                <ul class="nav__inner_2_2_s win-none ulsmall">
+                                    <li class="nav__inner-small"><a>Element 2.2.1</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.2.2</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.2.3</a></li>
+                                </ul>
+                            </ul>
+
+
+                            <ul class="nav__inner_2_3">
+                                <li>
+                                    <a>Element 2.3</a>
+                                </li>
+                            </ul>
+                            <ul class="nav__inner_2_4">
+                                <li>
+                                    <button class="nav__button-inner nav__button--inner-2-4 nav__button-inner_small"></button>
+                                    <a>Element 2.4</a></li>
+                                <ul class="nav__inner_2_4_s win-none ulsmall">
+                                    <li class="nav__inner-small"><a>Element 2.4.1</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.4.2</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.4.3</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.4.4</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.4.5</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.4.6</a></li>
+                                    <li class="nav__inner-small"><a>Element 2.4.7</a></li>
+                                </ul>
+                            </ul>
+                            <ul class="nav__inner_2_5">
+                                <li><a>Element 2.5</a></li>
+                            </ul>
+                            <ul class="nav__inner_2_6">
+                                <li>
+                                    <a>Element 2.6</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+
+                    <li class="nav__item"><a class="nav__link " href="#">Services</a></li>
+
+                    <div id="idPicContainer4" class="nav-menu">
+                        <li id="idPicContainer4Modile" class="nav__item nav__item--element-4">
+                            <button class="nav__button-inner nav__button--inner-4 nav--button-big"></button>
+                            <a class="nav__link" href="#">The promise</a>
+                        </li>
+                        <ul id="picHolder" class="nav__element-4-inner win-none ulbig">
+                            <li>
+                                <a href="">Element 4.1</a>
+                            </li>
+                            <li>
+                                <a href="">Element 4.2</a>
+                            </li>
+                        </ul>
+                    </div>
+
                     <li class="nav__item"><a class="nav__link" href="#">Origin</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Markets</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">CSR</a></li>
@@ -52,13 +123,6 @@
             <h1>Our fresh and frozen fish</h1>
         </div>
     </div>
-    <!--<div class="test">-->
-    <!--<div class="text-in">asdfasdfasdf asdf asdf asdf asdf asd fasdf asdf asdf asdf asdf asdf asdf asdf asdfa-->
-    <!--sdfasdf asdf asdf asdf asdf asdafsd fasdf asdf asdf asdf asdf</div>-->
-    <!--<div class="text-in">qwerqwerqwer qwe rqwer qwer qwer qwer qwe rqwer qwer qwer qwer qwer qwer qwer qwer-->
-    <!--qwer qwe rqwerweq rqwer qwe qwerqwer qwer qwerqwer qwer qwerq werqwe rqwer qwer qwer qwerqwer qwer-->
-    <!--qwer qwer qwerqwer rqwe</div>-->
-    <!--</div>-->
 
     <div class="container">
         <section class="catalog container__catalog">
@@ -78,19 +142,19 @@
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
                     <picture>
-                        <!--<source type="image/webp" media="(min-width: 1440px)"-->
-                                <!--srcset="images/webp/kirjolohifilee1440@1x.webp 1x,-->
-                                <!--images/webp/kirjolohifilee1440@2x.webp 2x">-->
+                        <source type="image/webp" media="(min-width: 1440px)"
+                                srcset="images/webp/kirjolohifilee1440@1x.webp 1x,
+                                images/webp/kirjolohifilee1440@2x.webp 2x">
 
 
-                        <!--<source type="image/webp" media="(min-width: 768px)" srcset="-->
-                        <!--images/webp/kirjolohifilee748px@1x.webp 1x,-->
-                        <!--images/webp/kirjolohifilee748px@2x.webp 2x-->
-                        <!--">-->
-                        <!--<source type="image/webp" srcset="-->
-                        <!--images/webp/kirjolohifilee-mobile@1x.webp 1x,-->
-                        <!--images/webp/kirjolohifilee-mobile@2x.webp 2x-->
-                        <!--">-->
+                        <source type="image/webp" media="(min-width: 768px)" srcset="
+                        images/webp/kirjolohifilee748px@1x.webp 1x,
+                        images/webp/kirjolohifilee748px@2x.webp 2x
+                        ">
+                        <source type="image/webp" srcset="
+                        images/webp/kirjolohifilee-mobile@1x.webp 1x,
+                        images/webp/kirjolohifilee-mobile@2x.webp 2x
+                        ">
 
                         <source media="min-width: 1440px" srcset="
                         images/dest/kirjolohifilee1440@1x.jpg 1x,
@@ -100,34 +164,17 @@
                         images/dest/kirjolohifilee748px@1x.jpg 1x,
                         images/dest/kirjolohifilee748px@2x.jpg 2x
                         ">
-                        <source srcset="
+                        <!--<source srcset="-->
+                        <!--images/dest/kirjolohifilee-mobile@1x.jpg 1x,-->
+                        <!--images/dest/kirjolohifilee-mobile@2x.jpg 2x-->
+                        <!--">-->
+
+                        <img src="images/src/kirjolohifilee.jpg"
+                             srcset="
                         images/dest/kirjolohifilee-mobile@1x.jpg 1x,
                         images/dest/kirjolohifilee-mobile@2x.jpg 2x
-                        ">
-
-
-
-                        <img src="images/src/kirjolohifilee.jpg" width="241" height="151" alt="kirjolohifilee">
-
-
-                        <!--<source type="image/webp" srcset="-->
-                        <!--img/logo-mobile-white@1x.webp 1x,-->
-                        <!--img/logo-mobile-white@2x.webp 2x-->
-                        <!--">-->
-                        <!--<source media="(min-width: 1440px)" srcset="-->
-                        <!--img/logo-desktop-white@1x.png 1x,-->
-                        <!--img/logo-desktop-white@2x.png 2x-->
-                        <!--">-->
-                        <!--<source media="(min-width: 768px)" srcset="-->
-                        <!--img/logo-tablet-white@1x.png 1x,-->
-                        <!--img/logo-tablet-white@2x.png 2x-->
-                        <!--">-->
-                        <!--<img class="logo__picture" src="img/logo-mobile-white@1x.png" srcset="-->
-                        <!--img/logo-mobile-white@1x.png 1x,-->
-                        <!--img/logo-mobile-white@2x.png 2x-->
-                        <!--" alt="Логотип приложения Погнали">-->
-                        <!--<img src="images/webp/kirjolohifilee1440@1x.webp" width="241" height="151" alt="kirjolohifilee">-->
-
+                        "
+                             alt="kirjolohifilee">
                     </picture>
                 </div>
                 <p class="card-product__text">
@@ -138,7 +185,13 @@
 
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
-                    <img src="images/dest/lohi-kokonainen.jpg" width="248" height="155" alt="lohi-kokonainen">
+                    <picture>
+                        <source type="image/webp" srcset="
+                        images/webp/lohi-kokonainen.webp 1x,
+                        images/webp/lohi-kokonainen@x2.webp 2x
+                        ">
+                        <img src="images/dest/lohi-kokonainen.jpg" width="248" height="155" alt="lohi-kokonainen">
+                    </picture>
                 </div>
                 <p class="card-product__text">
                     SALMON WHOLE<br>
@@ -226,7 +279,13 @@
 
             <a href="" class="card-product">
                 <div class="card-product__wrapper-img">
-                    <img src="images/dest/kuha.jpg" width="234" height="146" alt="kuha">
+                    <picture>
+                        <source type="image/webp" srcset="
+                        images/webp/kuha.webp 1x,
+                        images/webp/kuha@x2.webp 2x,
+">
+                        <img src="images/dest/kuha.jpg" width="234" height="146" alt="kuha">
+                    </picture>
                 </div>
                 <p class="card-product__text">
                     SALMON WHOLE<br>
@@ -265,6 +324,7 @@
             </a>
         </section>
     </div>
+    <div class="move">move me</div>
 </main>
 <footer class="footer">
     <div class="container container--footer">
@@ -283,5 +343,13 @@
     </div>
 </footer>
 <script src="js/app.min.js"></script>
+<!--<script src="js/menu.js"></script>-->
+<script src="js/move.js"></script>
+
+<script src="js/menu_mobile.js"></script>
+<script src="js/menu_pc.js"></script>
+
+
+
 </body>
 </html>
